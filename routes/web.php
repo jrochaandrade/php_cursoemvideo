@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/* Route::get('/', function () {
-    return view('welcome');
-}); */
+Route::get('/', function () {
+    return view('index');
+});
 
 
 Route::get('/curso', function (){return view('\curso_em_video\d001\curso_em_video');});
@@ -44,4 +44,4 @@ Route::get('/anatomia', function(){return view('\curso_em_video\d007\index');});
 
 Route::get('/calculo_salario', function(){return view('\curso_em_video\d008\index');});
 
-Route::get('/nacimento', function(){return view('\curso_em_video\d009\index');});
+Route::get('/nascimento', function(){return view('\curso_em_video\d009\index');});
