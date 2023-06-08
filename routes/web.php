@@ -45,3 +45,5 @@ Route::get('/anatomia', function(){return view('\curso_em_video\d007\index');});
 Route::get('/calculo_salario', function(){return view('\curso_em_video\d008\index');});
 
 Route::get('/nascimento', function(){return view('\curso_em_video\d009\index');});
+
+Route::get('/calculadora', function(){return view('\calculadora');});
